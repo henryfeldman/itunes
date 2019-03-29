@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tunes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+    <script src="details.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<h1>Choose Your Tunes</h1>
+<select id="artist">
+    <option value = "Lil Uzi Vert">Lil Uzi Vert</option>
+    <option value="Bob Dylan">Bob Dylan </option>
+    <option value="6lack">6lack</option>
+    <option value="Green Day">Green Day</option>
+    <option value="Vance Joy">Vance Joy</option>
+    <option value="The Killers">The Killers</option>
+    <option value="Fetty Wap">Fetty Wap</option>
+    <option value="Jason Derulo">Jason Derulo</option>
+    <option value="One Direction">One Direction</option>
+    <option value="Ella Fitzgerald">Ella Fitzgerald</option>
+
+</select>
+<select id="typeOfSearch">
+    <option value=1>Show Biggest Hit</option>
+    <option value=10>Show 10 Songs</option>
+    <option value=25>Show 25 Songs</option>
+    <option value=50>Show 50 Songs</option>
+</select>
+<button id="go" class="btn btn-secondary">Search</button>
+<button id="reset" class="btn btn-secondary">Clear</button>
+
+<div id="songs"></div>
+
+</body>
+</html>
